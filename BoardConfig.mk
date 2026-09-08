@@ -118,9 +118,6 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
-# Vendor Boot
-BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE := true
-
 # Vendor Modules
 TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/recovery/root/lib/modules) $(shell ls $(DEVICE_PATH)/recovery/root/vendor/lib/modules)\")
 
