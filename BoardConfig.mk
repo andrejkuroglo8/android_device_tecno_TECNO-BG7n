@@ -1,6 +1,5 @@
 #
 # Copyright (C) 2025 The Android Open Source Project
-# Copyright (C) 2025 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -133,6 +132,7 @@ TW_USB_STORAGE := true
 TW_THEME := portrait_hdpi
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 TW_SUPPORT_INPUT_AIDL_HAPTICS_FQNAME := "IVibrator/default"
+TW_SUPPORT_INPUT_1_2_HAPTICS := true
 RECOVERY_SDCARD_ON_DATA := true
 BOARD_HAS_NO_REAL_SDCARD := true
 TARGET_USES_MKE2FS := true
