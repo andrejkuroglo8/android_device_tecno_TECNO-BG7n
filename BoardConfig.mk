@@ -173,6 +173,9 @@ TW_NO_SCREEN_BLANK := true
 # Fastbootd
 TW_INCLUDE_FASTBOOTD := true
 
+# fastboot
+TW_NO_FASTBOOT_BOOT := true
+
 # USB Configuration
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 
